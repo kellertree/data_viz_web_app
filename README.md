@@ -47,6 +47,3 @@ Now, you can access the application in your web browser at `http://localhost:850
 - Additional visualization types (e.g., histograms, scatter plots).
 - Enhanced user interface features and design improvements.
 
----
-
-Feel free to adjust any sections according to your preferences or specific project details. This updated README will provide users with a clear understanding of the app's capabilities and how to use it effectively!
