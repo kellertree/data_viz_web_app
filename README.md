@@ -1,7 +1,7 @@
 # CSV to Time Series Visualization App
 
 ## Overview
-The CSV to Time Series Visualization App is a web application built using Streamlit that allows users to upload CSV files and create interactive time series visualizations. This app is designed for data analysts, researchers, and anyone interested in visualizing time-based data effortlessly.
+The web based CSV Visualization App is a web application built using Streamlit that allows users to upload CSV files and create interactive time series visualizations. This app is designed for data analysts, researchers, and anyone interested in visualizing time-based data effortlessly.
 
 ## Features
 - **Easy CSV Upload**: Users can upload their CSV files directly through the web interface.
