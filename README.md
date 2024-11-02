@@ -1,49 +1,57 @@
 # CSV to Time Series Visualization App
 
 ## Overview
-The web based CSV Visualization App is a web application built using Streamlit that allows users to upload CSV files and create interactive time series visualizations. This app is designed for data analysts, researchers, and anyone interested in visualizing time-based data effortlessly.
+The **CSV to Time Series Visualization App** is a web application built using Streamlit, designed to enable users—data analysts, researchers, and anyone working with time-based data—to upload CSV files and create interactive, customizable time series visualizations effortlessly.
 
 ## Features
-- **Easy CSV Upload**: Users can upload their CSV files directly through the web interface.
+- **Easy CSV Upload**: Upload CSV files directly through the app interface.
 - **Interactive Visualizations**: Generate time series plots based on user-selected date and value columns.
-- **Data Preview**: View a preview of the uploaded data before visualization.
-- **Input Validation**: Ensure that the selected value column is numeric and handle missing values effectively.
-- **Plot Customization**: Customize visualizations by choosing line color, plot type (line, bar, area), and whether to show markers.
-- **Descriptive Statistics**: Display basic statistics of the selected value column for better insights.
-- **Downloadable Plots**: Users can download the generated plots as image files.
+- **Data Preview**: View the first few rows of the uploaded data to confirm selection.
+- **Input Validation**: Ensures that the selected value column is numeric and handles missing values.
+- **Plot Customization**: Customize line color, plot type (line, bar, or area), and marker visibility.
+- **Descriptive Statistics**: Get basic statistics (mean, median, etc.) for the selected value column.
+- **Downloadable Plots**: Download the generated plots as image files.
 
 ## Technologies Used
-- **Python**: The programming language used to develop the app.
-- **Streamlit**: A Python library for creating web applications easily.
+- **Python**: Core programming language.
+- **Streamlit**: For creating a user-friendly web application.
 - **Pandas**: For data manipulation and analysis.
-- **Matplotlib**: For generating visualizations.
+- **Matplotlib**: For data visualization.
 
 ## Installation
 ### Prerequisites
-Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
+Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
+
+Install the necessary packages:
+```bash
+pip install streamlit pandas matplotlib
+```
 
 ### Clone the Repository
-Clone this repository to your local machine using the following command:
+Clone this repository to your local machine:
 ```bash
 git clone https://github.com/kellertree/csv_visualize.git
 ```
 
 ### Install Required Packages
-Navigate to the project directory and install the required packages:
+Navigate to the project directory and install all required packages:
 ```bash
 cd csv_visualize
 pip install -r requirements.txt
 ```
 
-### Run the Application
-Start the Streamlit app using the following command:
+## Running the Application
+You can start the app by running the following command:
 ```bash
 streamlit run app.py
 ```
+This command will launch the application locally, and you can access it in your web browser at `http://localhost:8501`.
 
-Now, you can access the application in your web browser at `http://localhost:8501`.
+### Running with VS Code Terminal
+You can also run the app from VS Code’s terminal. Just ensure you're in the project directory before running the `streamlit run` command.
 
 ## Future Enhancements
-- Additional visualization types (e.g., histograms, scatter plots).
-- Enhanced user interface features and design improvements.
+- Support for additional visualization types (e.g., histograms, scatter plots).
+- User interface enhancements for improved usability and aesthetics.
+
 
